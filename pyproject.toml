@@ -3,14 +3,14 @@
 ########################################
 
 [project]
-name = "TODO"
-description = "TODO"
+name = "impl"
+description = "impl"
 version = "0.0.1"
 authors = [{ name = "MaxOB" }]
 readme = "README.md"
 
 [tool.setuptools]
-packages = ["TODO"]
+packages = ["impl"]
 
 
 ########################################
@@ -118,7 +118,7 @@ dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
 [tool.ruff.lint.isort]
 combine-as-imports = true
 force-wrap-aliases = true
-known-first-party = ["TODO"]
+known-first-party = ["impl"]
 
 [tool.ruff.lint.flake8-quotes]
 docstring-quotes = "double"
